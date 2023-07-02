@@ -14,7 +14,6 @@ public class BaseListDiffCallback<T extends ListDiffInterface<T>> extends DiffUt
         return oldItem.theSameAs(newItem);
     }
 
-    @SuppressLint("DiffUtilEquals")
     @Override
     public boolean areContentsTheSame(T oldItem, T newItem) {
         // Реализация логики сравнения содержимого элементов списка
